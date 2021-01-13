@@ -1,6 +1,6 @@
 version: '3'
 volumes:
-    dados:
+   dados:
 services:
     db:
         image: postgres:9.6
