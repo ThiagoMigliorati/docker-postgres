@@ -1,9 +1,6 @@
-
 create database email_sender
 
-ALTER DATABASE email_sender OWNER TO postgres
-
-\connect email_sender
+\c email_sender
 
 create table emails (
     id serial not null,
